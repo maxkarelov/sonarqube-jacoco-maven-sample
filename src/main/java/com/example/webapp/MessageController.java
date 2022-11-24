@@ -39,7 +39,7 @@ public class MessageController {
     public String saySomething(@PathVariable("something") String something) {;
 
         if (something.equals("yes")) {
-            System.out.println("you said \"yes\"");
+            System.out.println("you said \"yes\");
         } else {
             System.out.println("you said " + something);
         }
